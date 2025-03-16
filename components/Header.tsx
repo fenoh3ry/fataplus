@@ -1,0 +1,1 @@
+import React from "react"; export default function Header(): React.ReactElement { return ( <header className="bg-green-600 text-white py-4"><div className="container mx-auto px-4"><h1 className="text-2xl font-bold">Fataplus AI</h1></div></header> );}
