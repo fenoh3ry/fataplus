@@ -1,0 +1,92 @@
+{
+  "regions": [
+    {
+      "name": "Madagascar",
+      "currency_code": "MGA",
+      "tax_rate": 20,
+      "payment_providers": ["manual", "stripe"],
+      "fulfillment_providers": ["manual"],
+      "countries": ["MG"]
+    }
+  ],
+  "products": [
+    {
+      "title": "Organic Rice (5kg)",
+      "subtitle": "Premium quality organic rice",
+      "description": "Premium quality organic rice grown in the highlands of Madagascar. This rice is cultivated using traditional methods without chemical fertilizers or pesticides, resulting in a superior taste and texture.",
+      "handle": "organic-rice-5kg",
+      "is_giftcard": false,
+      "weight": 5000,
+      "images": ["https://images.unsplash.com/photo-1586201375761-83865001e8ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"],
+      "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e8ac?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "options": [
+        {
+          "title": "Size",
+          "values": ["5kg"]
+        }
+      ],
+      "variants": [
+        {
+          "title": "5kg",
+          "prices": [
+            {
+              "currency_code": "MGA",
+              "amount": 1299
+            }
+          ],
+          "options": [
+            {
+              "value": "5kg"
+            }
+          ],
+          "inventory_quantity": 100,
+          "manage_inventory": true
+        }
+      ],
+      "metadata": {
+        "vendor": "Rakoto Farms",
+        "location": "Antananarivo",
+        "category": "Grains"
+      }
+    },
+    {
+      "title": "Fresh Tomatoes (1kg)",
+      "subtitle": "Locally grown fresh tomatoes",
+      "description": "Juicy, ripe tomatoes grown by local farmers using sustainable farming practices. Perfect for salads, sauces, or cooking.",
+      "handle": "fresh-tomatoes-1kg",
+      "is_giftcard": false,
+      "weight": 1000,
+      "images": ["https://images.unsplash.com/photo-1592924357228-91a4daadcfea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"],
+      "thumbnail": "https://images.unsplash.com/photo-1592924357228-91a4daadcfea?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "options": [
+        {
+          "title": "Size",
+          "values": ["1kg"]
+        }
+      ],
+      "variants": [
+        {
+          "title": "1kg",
+          "prices": [
+            {
+              "currency_code": "MGA",
+              "amount": 349
+            }
+          ],
+          "options": [
+            {
+              "value": "1kg"
+            }
+          ],
+          "inventory_quantity": 50,
+          "manage_inventory": true
+        }
+      ],
+      "metadata": {
+        "vendor": "Soamiely Produce",
+        "location": "Toamasina",
+        "category": "Vegetables"
+      }
+    }
+  ]
+}
