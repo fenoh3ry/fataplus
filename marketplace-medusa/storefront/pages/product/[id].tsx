@@ -100,6 +100,21 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     {
       id: '1',
       title: 'Organic Rice',
-      description: 'Premium quality organic rice grown in the highlands of Madagascar. This rice is cultivated using traditional methods without chemical fertilizers or pesticides, resulting in a superior taste and texture.',
+      description: 'Premium quality organic rice grown in the highlands of Madagascar.',
       price: 25.99,
-      image: 'https://images.unsplash.com/photo-1586201375761-83865001e8ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8f
+      image: 'https://images.unsplash.com/photo-1586201375761-83865001e8ac',
+      vendor: 'Madagascar Farms Co.',
+      location: 'Antananarivo, Madagascar',
+      category: 'Grains',
+      stock: 100
+    }
+  ];
+
+  const product = mockProducts.find(p => p.id === id) || mockProducts[0];
+
+  return {
+    props: {
+      product
+    }
+  };
+};
